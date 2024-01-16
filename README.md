@@ -27,8 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-## Site
-www.abeelhando.com
+## Demo Site:
+https://amboni.github.io/abeelhando/
+
+
 
 ## ng CLI cmds:
 ng new abeelhando
@@ -43,10 +45,11 @@ npm install pdf2json
 npm install fs
 
 
+## Deploy dist to Github website:
+(Just once)
+ng add angular-cli-ghpages
 
-NO!!! Not working!!!
-https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-heroku-65dd546c8181
-## Heroku (https://nameless-cove-51354.herokuapp.com/)
----------------------------------------------------
+ng build --base-href "https://amboni.github.io/abeelhando/"
 
-git push heroku master
+npx angular-cli-ghpages --dir=dist/abeelhando
+
