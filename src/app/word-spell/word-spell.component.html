@@ -1,14 +1,19 @@
-<div id="mainDiv">
+<!-- <div id="mainDiv" [style.background-image]="'url(assets/images/What-is-Genshin-Impact.jpg)'"> -->
+<div id="mainDiv" >
 
   <mat-card id="speakerCard" appearance="raised">
     <mat-card-content>
 
 
       <mat-icon id="speakerIcon" aria-hidden="false" aria-label="Speak Word" fontIcon="volume_up"
-        (click)="askNextWord()"></mat-icon>
+        (click)="askNextWord()" [ngStyle]="{'color': selectedVoiceIndex == 0 ? 'black' : 'pink'}"></mat-icon>
 
       <!-- <h1 [hidden]="!showWord">{{showWord}}</h1> -->
       <h1>{{showWord}} &nbsp;</h1>
+      <mat-icon aria-hidden="false" aria-label="Change Voice" fontIcon="woman"
+        (click)="changeVoice(4)"></mat-icon>
+      <mat-icon aria-hidden="false" aria-label="Change Voice" fontIcon="man"
+        (click)="changeVoice(0)"></mat-icon>
 
     </mat-card-content>
   </mat-card>
@@ -37,7 +42,7 @@
   </div>
 
   <section id="progressBarSection">
-    <mat-progress-bar mode="determinate" value="{{progress}}"></mat-progress-bar>
+    <mat-progress-bar mode="determinate" value="{{progress}}" ></mat-progress-bar>
     <div id="countDiv">{{wordPos + 1}} of {{words.length}}</div>
   </section>
 

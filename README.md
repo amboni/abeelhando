@@ -41,3 +41,12 @@ ng generate @angular/material:address-form WordSpell
 ## Parse PDF
 npm install pdf2json 
 npm install fs
+
+
+
+NO!!! Not working!!!
+https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-heroku-65dd546c8181
+## Heroku (https://nameless-cove-51354.herokuapp.com/)
+---------------------------------------------------
+
+git push heroku master

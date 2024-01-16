@@ -12,6 +12,7 @@ import { FormBuilder, FormControl, Validators } from '@angular/forms';
 export class WordSpellComponent implements OnInit, OnDestroy, AfterViewInit {
 
 
+
   words: string[] = [];
   wordPos = 0;
   wordGuess = new FormControl('');
@@ -30,7 +31,10 @@ export class WordSpellComponent implements OnInit, OnDestroy, AfterViewInit {
   constructor(private httpClient: HttpClient) {
 
   }
-  
+
+  changeVoice(pos: number) {
+    this.selectedVoiceIndex = pos;
+  }
 
   ngOnInit(): void {
     this.synth = window.speechSynthesis;
@@ -38,21 +42,23 @@ export class WordSpellComponent implements OnInit, OnDestroy, AfterViewInit {
       this.voices = window.speechSynthesis.getVoices();
       console.log("this.voices: ", this.voices);
       this.selectedVoiceIndex = 0;
+      //this.selectedVoiceIndex = 3;
     };
 
     this.httpClient.get('assets/pdf/Words_of_the_Champions_Printable_FINAL.txt', { responseType: 'text' })
       .subscribe(data => {
         //console.log(data)
         this.words = data.split("\n");
+        //this.words = this.words.slice(0, 50);
       });
 
   }
 
   ngAfterViewInit(): void {
     setTimeout(() => {
-      this.askNextWord();  
+      this.askNextWord();
     }, 1000);
-    
+
   }
 
   //post = { value: "Hello Beautiful!", language: "en", voiceGender: "male", pitch: 1, rate: 1 }
@@ -68,7 +74,7 @@ export class WordSpellComponent implements OnInit, OnDestroy, AfterViewInit {
   reset() {
     this.showWord = "";
     this.errorMsg = "";
-    this.correct = false; 
+    this.correct = false;
     //this.wordGuess.setValue("");   
   }
 
@@ -76,17 +82,18 @@ export class WordSpellComponent implements OnInit, OnDestroy, AfterViewInit {
     if (!this.wordGuess.value) return;
 
     if (this.wordGuess.value.trim().toLowerCase() == this.words[this.wordPos].toLowerCase()) {
+      this.reset();
       this.showWord = this.words[this.wordPos];
       this.wordPos++;
-      this.progress++;  
-      this.reset();
-      this.correct = true;      
-      this.errorCount = 0;  
-      this.wordGuess.setValue("");       
+      this.progress = (this.wordPos / this.words.length) * 100;
+      console.log("this.progress: " + this.progress);
+      this.correct = true;
+      this.errorCount = 0;
+      this.wordGuess.setValue("");
     } else {
       this.reset();
-      this.errorMsg = "Invalid word";   
-      this.errorCount++;   
+      this.errorMsg = "Invalid word";
+      this.errorCount++;
     }
 
     if (this.errorCount > 3) {
@@ -94,7 +101,7 @@ export class WordSpellComponent implements OnInit, OnDestroy, AfterViewInit {
       this.wordGuess.setValue(this.showWord);
     }
 
-    
+
   }
 
 

@@ -1,10 +1,12 @@
+
+
 #mainDiv {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  // font-size: 34px;
+  // font-size: 34px;  
 }
 
 #speakerCard {
@@ -12,11 +14,11 @@
   margin-top: 30px;
   width: 400px;
   min-height: 250px;
-  flex: 1 1 60%;
+  flex: 1 1 50%;
 }
 
 #inputField {
-  flex: 0 0 20%;
+  flex: 0 0 25%;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -44,6 +46,10 @@ h1 {
   text-align: center;  
 }
 
+mat-icon {
+  cursor: pointer;
+}
+
 #speakerIcon {
   font-size: 100px;
   width: 100%;
@@ -51,15 +57,16 @@ h1 {
   margin: auto;
   margin-top: 30px;
   text-align: center;
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 #progressBarSection {
-  // height: 30px;  
+  height: 30px;  
   width: 80%;
   margin: auto;
-  margin-top: 180px;
-  flex: 0 0 20%;
+  margin-top: 110px;
+  flex: 1 1 25%;
+  font-weight: bold;
 }
 
 // .mat-card:not([class*=mat-elevation-z]) {
