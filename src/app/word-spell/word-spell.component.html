@@ -1,0 +1,46 @@
+<div id="mainDiv">
+
+  <mat-card id="speakerCard" appearance="raised">
+    <mat-card-content>
+
+
+      <mat-icon id="speakerIcon" aria-hidden="false" aria-label="Speak Word" fontIcon="volume_up"
+        (click)="askNextWord()"></mat-icon>
+
+      <!-- <h1 [hidden]="!showWord">{{showWord}}</h1> -->
+      <h1>{{showWord}} &nbsp;</h1>
+
+    </mat-card-content>
+  </mat-card>
+
+  <div id="inputField">
+    <mat-form-field>
+      <mat-label>Type Word</mat-label>
+      <input matInput [formControl]="wordGuess">
+    </mat-form-field>
+
+    <div id="buttonDiv">
+
+      <!-- <button mat-raised-button color="primary" (click)="confirm()" [disabled]="correct">Confirm</button> -->
+      <button mat-raised-button color="primary" (click)="confirm()" *ngIf="!correct">Confirm</button>
+      <button mat-raised-button color="primary" (click)="askNextWord()" *ngIf="correct">Next</button>
+
+      <mat-error *ngIf="errorMsg">{{errorMsg}}</mat-error>
+      <div id="correctDiv" *ngIf="correct">
+        <mat-icon aria-hidden="false" aria-label="Correct" fontIcon="check"> </mat-icon>
+        Correct
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <section id="progressBarSection">
+    <mat-progress-bar mode="determinate" value="{{progress}}"></mat-progress-bar>
+    <div id="countDiv">{{wordPos + 1}} of {{words.length}}</div>
+  </section>
+
+
+
+</div>

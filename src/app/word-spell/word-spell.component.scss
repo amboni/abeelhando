@@ -1,0 +1,69 @@
+#mainDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  // font-size: 34px;
+}
+
+#speakerCard {
+  margin: auto;
+  margin-top: 30px;
+  width: 400px;
+  min-height: 250px;
+  flex: 1 1 60%;
+}
+
+#inputField {
+  flex: 0 0 20%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  // font-size: 34px;
+}
+
+#correctDiv {
+  // margin-top: 10px;
+  background-color: rgb(145, 169, 161);
+  border-style: solid;
+  width: 150px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#buttonDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+h1 {
+  text-align: center;  
+}
+
+#speakerIcon {
+  font-size: 100px;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#progressBarSection {
+  // height: 30px;  
+  width: 80%;
+  margin: auto;
+  margin-top: 180px;
+  flex: 0 0 20%;
+}
+
+// .mat-card:not([class*=mat-elevation-z]) {
+//   box-shadow: 0 2px 1px -1px rgba(0,0,0,1), 
+//               0 1px 1px 0 rgba(0,0,0,1), 
+//               0 1px 3px 0 rgba(0,0,0,1);
+// }
