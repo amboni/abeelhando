@@ -1,3 +1,5 @@
+à fond;adverb;THOROUGHLY - to the fullest extent : to the utmost - Etymology: French, literally, to the bottom
+à la grecque;adjective;served in a sauce made of olive oil, lemon juice, and several seasonings (such as fennel, coriander, sage, and thyme) - Etymology: French, in the Greek manner
 adsum;interjection;used to indicate one's presence usually in answer to a roll call - Latin: I am present - 1st person singular present indicative of adesse to be present
 fie;interjection;used to express disgust or disapproval
 screeno;noun;bingo designed for play by audiences in motion-picture theaters
@@ -13,3 +15,68 @@ grandrelle;noun;a yarn usually having two plies of different colors
 incisiform;adjective;having the form of or resembling a typical incisor tooth
 Isle Royale;geographical name;island of Michigan in northwestern Lake Superior in ****** National Park
 lanolated;adjective;containing lanolin (wool grease especially when refined for use in ointments and cosmetics)
+minestra;noun;Italian vegetable soup
+movimento;noun;TEMPO - Italian, literally, from movere to move (from Latin movēre)
+novemdecillion;noun;US : a number equal to 1 followed by 60 zeros
+omnilegent;adjective;reading or having read everything : characterized by encyclopedic reading
+sponsalia;plural noun;a formal promise or contract for a future marriage between persons competent to make such a contract
+subrident;adjective;wearing or offered with a smile
+toorie;noun;a tassel (dangling ornament) on a Scotch bonnet 
+toties quoties;adverb;REPEATEDLY —used of an indulgence in the Roman Catholic Church that may be gained or granted as often as the required works are performed
+vendage;noun;the harvesting or harvest time of grapes : VINTAGE
+zowie;interjection;used to express astonishment or admiration especially in response to something sudden or speedy
+Okefenokee;geographical name;swamp over 600 square miles (1554 square kilometers) long in southeastern Georgia and northeastern Florida
+accordatura;noun;the tuning scheme of a stringed musical instrument
+akkum;noun;a Chaldean star worshiper
+almuerzo;noun;the first substantial meal of the day taken usually just before noon
+amuse-gueule;noun;borrowed from French, literally "(it) entertains (the) mouth"
+anomaliped;adjective;having more or less of the digits united: the kingfisher and the kangaroo are anomaliped
+Apostolici;plural noun;members of various ascetic sects of the 3d and 4th centuries a.d. in Phrygia, Cilicia, and Pamphylia who sought apostolic purity of life by renouncing marriage and private property
+ardoise;noun;a grayish purple that is stronger than telegraph blue, bluer and deeper than mauve gray, and bluer and paler than average rose mauve
+au bleu;adjective (or adverb);cooked by boiling in acidulated water immediately after being killed and cleaned but without being washed or scaled - used especially of trout - Etymology: French, literally, to the blue - from the fact that the skin of fish cooked in this manner turns blue
+azotea;noun;a flat roof or platform on the top of a house or other building
+Baucis;noun;the wife of Philemon (from Greek mythology)
+ben trovato;adjective;characteristic or appropriate even if not true - Etymology: Italian, literally, well found
+bergère;noun;an upholstered armchair of an 18th century style having an exposed wood frame - Etymology: French, literally, shepherdess, feminine of berger shepherd
+beurre;noun;BUTTER - usually used in the phrase au beurre - Etymology: French
+Bezier curve;noun;a mathematical curve that is often used in computer graphics to model fluid shapes and in animation
+buñuelo;noun;a flat, semisweet cake made mainly of eggs, flour, and milk fried in deep fat and usually served with sugar and cinnamon or cane syrup - Etymology: Spanish
+ca'canny;noun;SLOWDOWN - Etymology: borrowed from Scots, "proceed warily, act cautiously" (imperative and infinitive)
+Castalia;noun;a source of poetic inspiration
+cavalletti;noun;a series of timber jumps that are adjustable in height for schooling horses - Etymology: borrowed from Italian, plural of cavalletto "trestle, stand," from cavallo "horse"
+choucroute;noun;a dish of cabbage cut into small pieces and preserved in salt, usually heated with wine and eaten with cooked meat - Etymology: French, modification of German Sauerkraut
+ciénaga;noun;SWAMP, MARSH especially : one formed by hillside springs - Etymology: Spanish ciénaga, from cieno mud, slime
+ciliopathy;noun;any of a group of genetic disorders (such as Bardet-Biedl syndrome, polycystic kidney disease, or retinitis pigmentosa) that are caused by the abnormal formation or function of cellular cilia and often share common features (such as brain anomalies, retinal degeneration, renal or liver dysfunction, polydactyly, and cognitive impairment)
+cynocephali;plural noun;a dogheaded being - one of a fabled race of dogheaded men or BABOON
+drahthaar;noun;a dog of a German breed of wire-haired pointers
+estrepe;transitive verb;to wreak needless destruction or waste upon - Etymology: Middle French estreper, from Latin exstirpare to root out
+fête champêtre;noun;an outdoor entertainment - Etymology: French, literally, rural festival
+Furneaux;geographical name;islands of Australia off northeastern Tasmania
+gyokuro;noun;a high-grade tea made in Japan from the leaves of shaded bushes and used for domestic consumption
+hei-tiki;noun;a greenstone charm in the shape of a human figure worn as a neck pendant by the Maoris (member of the indigenous people of New Zealand)
+Huallaga;geographical name;river 700 miles (1126 kilometers) long in north central Peru flowing north into the Marañón River
+kapparah;noun;a symbolic ceremony practiced by some Orthodox Jews on the eve of Yom Kippur in which typically a cock, hen, or coin is swung around the head and offered in atonement or as ransom for one's sins
+kichel;noun;a semisweet baked product made of eggs, flour, and sugar usually rolled and cut in diamond shape and baked until puffed
+leberwurst;noun;LIVER SAUSAGE - Etymology: German, from leber liver + wurst sausage
+lierre;noun;a grayish to moderate olive - Etymology: French, literally, ivy
+lunulae;plural noun;a crescent-shaped body part - the whitish mark at the base of a fingernail called also half-moon
+maringouin;noun;a mosquito, especially a large swamp mosquito - Etymology: French, from mariguí mosquito
+Menaia;plural noun;a collection of hymns and collects for all days of the year in the Eastern Orthodox Church arranged in calendar order and usually divided into 12 volumes each for a different month and each containing the proper of the immovable feasts of Christ or the saints for the month
+niveau;noun;a level or plateau (as of existence or achievement) especially in a progression - Etymology: French, from Middle French niveau, nivel, alteration of livel
+piatti;plural noun;cymbals (a flat, round musical instrument made of brass that makes a loud noise when hit with a stick or against another) - Etymology: Italian, from plural of piatto plate, from piatto flat
+point d'appui;noun;FOUNDATION, BASE - Etymology: French, literally, point of support
+poudre B;noun;a smokeless French rifle powder consisting essentially of about two thirds guncotton and one third pyroxylin
+rescissible;adjective;capable of being rescinded (to take away)
+rinceau;noun;an ornamental motif consisting essentially of a sinuous and branching scroll elaborated with leaves and other natural forms (as derived from the acanthus)
+risposta;noun;music: ANSWER sense 5 - Etymology: Italian, literally, answer, from feminine of risposto, past participle of rispondere to answer, from Latin respondēre to answer, respond
+savoir faire;noun;capacity for appropriate action - especially : a polished sureness in social behavior
+Schedar;noun;astronomy: an orange giant star of the second magnitude that is the brightest star in the constellation Cassiopeia
+seraya;noun;any of several trees of the genus Shorea - Etymology: native name in Borneo
+sturnine;adjective;of, relating to, or resembling a starling
+succorance;noun;DEPENDENCE - especially : a dependence on or an active seeking for nurturant care
+tam-o'-shanter;noun;the hero of Burns's poem Tam o' Shanter
+teneramente;adverb;TENDERLY - used as a direction in music - Etymology: Italian, from tenero tender, from Latin tener
+trompe l'oeil;noun;a style of painting in which objects are depicted with photographically realistic detail
+trous-de-loup;noun plural;Military: a conical or pyramidal pit with a pointed stake fixed vertically in the center, rows of which are dug in front of a fortification to hinder an enemy's approach, formerly used chiefly against cavalry
+
+
