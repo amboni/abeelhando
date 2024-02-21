@@ -1,5 +1,7 @@
 à fond;adverb;THOROUGHLY - to the fullest extent : to the utmost - Etymology: French, literally, to the bottom
 à la grecque;adjective;served in a sauce made of olive oil, lemon juice, and several seasonings (such as fennel, coriander, sage, and thyme) - Etymology: French, in the Greek manner
+ab aeterno;adverb;from an infinitely remote point of time in the past - Etymology: New Latin, literally, "from forever"
+ape-ape;noun;a rhizomatous perennial herb (Gunnera petaloidea) of Hawaiian uplands having a branched inflorescence and bluntly heart-shaped leaves several feet in diameter that rise from a short fleshy crown
 adsum;interjection;used to indicate one's presence usually in answer to a roll call - Latin: I am present - 1st person singular present indicative of adesse to be present
 fie;interjection;used to express disgust or disapproval
 screeno;noun;bingo designed for play by audiences in motion-picture theaters
